@@ -6,6 +6,9 @@ janela.title("Calculadora")
 janela.geometry("235x310")
 janela.config(bg='white')
 
+# Impedindo redimensionamento
+janela.resizable(False, False)
+
 # Definindo cores
 cor1 = '#38576b'  # Azul Carregado
 cor2 = '#F5FFFA'  # Branco
